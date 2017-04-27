@@ -2,11 +2,15 @@ class ProjectsController < ApplicationController
 
 
     def index
-        @projects = Project.all
+        @search = Project.search(params[:q])
+        if @search.result == "null"
+            @projects = Project.all
+        else
+            @projects = @search.result
+        end
     end
 
     def show
-        @search = Project.task.search(params[:q])
     end
     
     def new

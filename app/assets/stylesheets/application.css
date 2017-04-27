@@ -14,13 +14,14 @@
  *= require_self
  */
  h1 {
-   text-align:center;
+  text-align:center;
  	padding-bottom: .5em;
  	border-bottom: 1px solid #0000FF;
   color : #696969;
  }
  li{
-   padding-bottom: .5em;
+   padding-top: .8em;
+
    cursor : pointer;
  }
 body{
