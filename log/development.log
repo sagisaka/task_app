@@ -18451,3 +18451,38 @@ Processing by Devise::SessionsController#new as HTML
   Rendered devise/shared/_links.html.erb (4.5ms)
   Rendered devise/sessions/new.html.erb within layouts/application (39.9ms)
 Completed 200 OK in 396ms (Views: 376.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2017-04-28 12:41:11 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProjectsController#index as HTML
+Completed 401 Unauthorized in 26ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-28 12:41:11 +0900
+Processing by ProjectsController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-04-28 12:41:11 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (28.4ms)
+Completed 200 OK in 543ms (Views: 530.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/welcome-731f7baf65feff2c9bb5eebbdc65e46323261f691f5a63931f0107b5d27081e4.jpg" for ::1 at 2017-04-28 12:41:12 +0900
+
+
+Started GET "/users/sign_in" for ::1 at 2017-04-28 12:41:30 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 52ms (Views: 50.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-04-28 12:41:36 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 48ms (Views: 46.1ms | ActiveRecord: 0.0ms)
