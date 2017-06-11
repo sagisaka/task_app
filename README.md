@@ -19,9 +19,10 @@
 
 ## 開発環境のセットアップ手順
 1. このプロジェクトを git clone する
-2. プロジェクト内に移動し、bundle exec rake db:migrate でDBを構築する。
-3. bundle exec rails s でサーバを起動する。
-4. 起動後は、 localhost:3000 でページに移動できる。
+2. プロジェクト内に移動し、bundle install --path vendor/bundle --jobs=4 でインストールを行う。
+3. 同じプロジェクト内で、bundle exec rake db:migrate でDBを構築する。
+4. bundle exec rails s でサーバを起動する。
+5. 起動後は、 localhost:3000 でページに移動できる。
 
 ## 画面ごとの内容
 
